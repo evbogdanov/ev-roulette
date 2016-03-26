@@ -65,13 +65,13 @@ function EvRoulette(attrs) {
 // L-3 -- на этом месте оружие-приз
 
 // общее количество оружия
-EvRoulette.N_WEAPONS = 25;
+EvRoulette.N_WEAPONS = 31;
 
 // айдишник приза
 EvRoulette.WEAPON_PRIZE_ID = EvRoulette.N_WEAPONS - 3;
 
 // время вращения
-EvRoulette.SPIN_SECS = 10;
+EvRoulette.SPIN_SECS = 8;
 
 // время отложенного старта
 EvRoulette.START_DELAY_MSECS = 100;
@@ -87,9 +87,9 @@ EvRoulette.IMAGE_LOAD_INTERVAL = 500;
 EvRoulette.IMAGE_LOAD_WAIT_MSECS = 10 * 1000;
 
 // звуки
-EvRoulette.SOUND_START = 'snd/roulette_start.wav';
-EvRoulette.SOUND_SPIN  = 'snd/roulette_spin.wav';
-EvRoulette.SOUND_STOP  = 'snd/roulette_stop.wav';
+EvRoulette.SOUND_START = '/snd/roulette_start.wav';
+EvRoulette.SOUND_SPIN  = '/snd/roulette_spin.wav';
+EvRoulette.SOUND_STOP  = '/snd/roulette_stop.wav';
 
 // СОЗДАТЬ ОРУЖИЕ ИЗ АТРИБУТОВ
 // -----------------------------------------------------------------------------
